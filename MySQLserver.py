@@ -26,6 +26,5 @@ def create_database():
             connection.close()
             print("MySQL connection closed.")
 
-# Run the function
 if __name__ == "__main__":
     create_database()
